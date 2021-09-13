@@ -187,7 +187,28 @@
             android:layout_height="100dp"
             android:text="/"
             android:textSize="50dp"
-            android:id="@+id/btn_div">
+            android:id="@+id/btn_div"
+            android:layout_marginRight="10dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="0"
+            android:textSize="50dp"
+            android:id="@+id/btn_0"
+            android:layout_marginRight="10dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:gravity=""
+            android:text="C"
+            android:textSize="50dp">
 
         </Button>
     </LinearLayout>
